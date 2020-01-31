@@ -24,6 +24,7 @@ public class Die : MonoBehaviour
 
     void Awake()
     {
+        Debug.Log("Ahoy!");
         image = GetComponent<Image>();
     }
     void Start(){
@@ -33,7 +34,7 @@ public class Die : MonoBehaviour
         if(held){
             image.color = Color.grey;
         }else if(holdable){
-            image.color = Color.green;
+            image.color = Color.magenta;
         }else{
             image.color = Color.white;
         }
@@ -63,8 +64,10 @@ public class Die : MonoBehaviour
         if(image == null){//Debugging
             image = GetComponent<Image>();
         }
+
         StartCoroutine(RollingAnimation(Random.Range(7,9),0.1f));
     }
+    //This rolling animation is not currently being used.
     IEnumerator RollingAnimation(float rolls,float speed){
         for(int i = 0;i<rolls;i++){
             image.sprite = spriteFaces[(int)Random.Range((int)0,(int)sides)];
