@@ -29,13 +29,14 @@ public class Die : MonoBehaviour
     void Start(){
         RollInstant();
     }
+    //Color of the dice
     void Update(){
         if(held){
-            image.color = Color.grey;
+            image.color = Color.blue;
         }else if(holdable){
-            image.color = Color.green;
+            image.color = Color.red;
         }else{
-            image.color = Color.white;
+            image.color = Color.black;
         }
         
     }
