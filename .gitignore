@@ -8,7 +8,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-
+/Assets/Plugins/Sirenix/
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -61,3 +61,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/Plugins/Sirenix
+Assets/Plugins/Sirenix
