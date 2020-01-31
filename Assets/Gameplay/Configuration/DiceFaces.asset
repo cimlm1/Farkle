@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef68c47664cd414c84b8ac7cfdb8c3c, type: 3}
+  m_Name: DiceFaces
+  m_EditorClassIdentifier: 
+  DeveloperDescription:
+    _value: 
+  _list:
+  - {fileID: 1684456423238652369, guid: 61749f72718616943a04710300c11f65, type: 3}
+  - {fileID: 596742436784883720, guid: 61749f72718616943a04710300c11f65, type: 3}
+  - {fileID: -3585582928347291925, guid: 61749f72718616943a04710300c11f65, type: 3}
+  - {fileID: -4678743541446761726, guid: 61749f72718616943a04710300c11f65, type: 3}
+  - {fileID: 8303297628073454690, guid: 61749f72718616943a04710300c11f65, type: 3}
+  - {fileID: -8197190365082325135, guid: 61749f72718616943a04710300c11f65, type: 3}
